@@ -1,0 +1,13 @@
+<h1>Demo#hello</h1>
+<p>hallo from htllo html erb</p>
+
+<%@array.each do |i|  %>
+<%= i %><br/>
+<% end %>
+
+ID: <%= params['id'] %>
+ID: <%= @id %>
+PAGES: <%= @pages %>
+Next page: <%= @pages + 1 %>
+<hr />
+<%= params.inspect %>
